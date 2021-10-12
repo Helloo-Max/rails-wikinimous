@@ -1,2 +1,18 @@
-<h1>Articles#show</h1>
-<p>Find me in app/views/articles/show.html.erb</p>
+<h1><%= @article.title %></h1>
+<hr>
+
+<!-- Random paragraph -->
+<p><%= @lorem_ipsum.sample %></p>
+
+<!-- Random picture -->
+<img src="https://source.unsplash.com/random/800x300" alt="">
+
+<!-- Random title from db -->
+<h2><%= @articles.sample.title %></h2>
+
+<!-- Random lorem gibson -->
+<p><%= @lorem_gibson.sample %></p>
+
+<h2><%= @articles.sample.title %></h2>
+
+<p><%= @lorem_gibson.sample %> </p>
