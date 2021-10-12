@@ -1,0 +1,23 @@
+/* External Libraries */
+@import "bootstrap/scss/bootstrap";
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+// Layout
+.container {
+  width: 1200px;
+  margin: 80px auto;
+}
+
+// Utilities
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #586F7C;
+  background-color: #F2F4F3;
+}
+
+a {
+  text-decoration: none!important;
+}
