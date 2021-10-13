@@ -1,2 +1,10 @@
-<h1>Articles#edit</h1>
-<p>Find me in app/views/articles/edit.html.erb</p>
+<h1 class="mb-4">Edit article</h1>
+
+<%= render "form", article: @article %>
+
+<br>
+<hr>
+
+<%= link_to articles_path do %>
+  <i class="fas fa-undo"></i> Back
+<% end %>

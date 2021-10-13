@@ -25,6 +25,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'faker'
 # Font Awesome
 gem 'font-awesome-sass', '~> 5.6.1'
+# Simple Form
+gem 'simple_form'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
