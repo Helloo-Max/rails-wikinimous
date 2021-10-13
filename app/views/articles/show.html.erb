@@ -1,4 +1,17 @@
-<h1><%= @article.title %></h1>
+<h1><%= @article.title %>
+  <%= link_to new_article_path do %>
+    <span class="icon">
+      <i class="fas fa-pen"></i>
+    </span>
+  <% end %>
+  <%= link_to article_path(@article),
+              method: :delete,
+              data: { confirm: "Are you sure?" } do %>
+    <span class="icon">
+      <i class="fas fa-trash-alt"></i>           
+    </span>
+  <% end %>
+</h1>
 <hr>
 
 <!-- Random paragraph -->

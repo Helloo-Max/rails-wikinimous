@@ -1,12 +1,14 @@
 /* External Libraries */
 @import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
 /* Layout */
 .container {
-  width: 1200px;
+  width: 850px;
   margin: 80px auto;
 }
 
@@ -23,6 +25,11 @@ a {
 }
 
 /* Custom Design */
+
+.icon {
+  font-size: 50%;
+}
+
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;

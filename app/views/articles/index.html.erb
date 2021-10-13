@@ -1,6 +1,6 @@
   <% @articles.each do |article| %>
     <article>
-      <h2><%= link_to "#{article.title}", article_path(article) %></h2>
+      <h2 class="mt-3"><%= link_to "#{article.title}", article_path(article) %></h2>
       <%= article.content %>
     </article>
   <% end %>
